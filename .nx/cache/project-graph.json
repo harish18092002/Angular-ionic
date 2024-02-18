@@ -1279,6 +1279,15 @@
         "hash": "sha512-dQjSq/7HaSjRM43FFGnv5keM2HsxpmyV1PfaSVm0nzzjwwTmjOe6J4bC8e3+pTEIgHaHj+1ZlLThRJ2auc/w1Q=="
       }
     },
+    "npm:@capacitor/android": {
+      "type": "npm",
+      "name": "npm:@capacitor/android",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@capacitor/android",
+        "hash": "sha512-0bnG1dqfT/nTjzMeHF/a5kF8mqGjHrPLADNqn41seWDfb2ch6AMiKUHsmHpEOWmGIrWOM25qNTrTOytoCSpuXg=="
+      }
+    },
     "npm:@capacitor/app": {
       "type": "npm",
       "name": "npm:@capacitor/app",
@@ -1466,6 +1475,15 @@
         "version": "5.0.7",
         "packageName": "@capacitor/haptics",
         "hash": "sha512-/j+7Qa4BxQA5aOU43cwXuiudfSXfoHFsAVfcehH5DkSjxLykZKWHEuE4uFJXqdkSIbAHjS37D0Sde6ENP6G/MA=="
+      }
+    },
+    "npm:@capacitor/ios": {
+      "type": "npm",
+      "name": "npm:@capacitor/ios",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@capacitor/ios",
+        "hash": "sha512-zoEdsYQHI1zz2vjKsTpu5bSfxQQ5jrk3Qs6Op9MYcckZZ2QWIs0YpL99p+zODXNpkkyLG73NXEIrOjvyI9jx8A=="
       }
     },
     "npm:@capacitor/keyboard": {
@@ -13280,6 +13298,13 @@
         "type": "static"
       }
     ],
+    "npm:@capacitor/android": [
+      {
+        "source": "npm:@capacitor/android",
+        "target": "npm:@capacitor/core",
+        "type": "static"
+      }
+    ],
     "npm:@capacitor/app": [
       {
         "source": "npm:@capacitor/app",
@@ -13420,6 +13445,13 @@
     "npm:@capacitor/haptics": [
       {
         "source": "npm:@capacitor/haptics",
+        "target": "npm:@capacitor/core",
+        "type": "static"
+      }
+    ],
+    "npm:@capacitor/ios": [
+      {
+        "source": "npm:@capacitor/ios",
         "target": "npm:@capacitor/core",
         "type": "static"
       }
